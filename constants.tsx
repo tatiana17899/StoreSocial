@@ -28,31 +28,31 @@ const XIcon: React.FC<{ className?: string }> = (props) => (
 );
 
 const TikTokIcon: React.FC<{ className?: string }> = (props) => (
-  <svg {...props} xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+  <svg {...props} xmlns="https://i.postimg.cc/xdQDbf72/tik-tok-4.png" width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
     <path d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-2.43.05-4.86-.95-6.69-2.81-1.77-1.8-2.6-4.28-2.5-6.75s.76-4.67 2.48-6.41c1.57-1.57 3.64-2.42 5.73-2.41 1.29.01 2.58.01 3.86.02v3.96c-1.31-.01-2.61-.01-3.92.02-.33.2-.64.42-.93.66-.5.43-1.02.82-1.52 1.23-.42.33-.87.63-1.34.89-.49.28-.93.65-1.31 1.07-1.02 1.12-1.55 2.63-1.55 4.23s.59 3.19 1.73 4.33c1.13 1.13 2.65 1.74 4.23 1.71 1.73-.04 3.32-.73 4.45-1.95.4-.42.72-.89.96-1.41.24-.52.38-1.08.44-1.65.01-1.55.02-3.09.01-4.64h-4.02v-3.96z"/>
   </svg>
 );
 
 const PinterestIcon: React.FC<{ className?: string }> = (props) => (
-  <svg {...props} xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+  <svg {...props} xmlns="https://i.postimg.cc/Sx0HwQmP/pinterest.png" width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
     <path d="M12 0c-6.627 0-12 5.372-12 12 0 5.084 3.163 9.426 7.627 11.174-.105-.949-.2-2.405.042-3.441.218-.937 1.407-5.965 1.407-5.965s-.359-.719-.359-1.782c0-1.668.967-2.914 2.171-2.914 1.023 0 1.518.769 1.518 1.69 0 1.029-.655 2.568-.994 3.995-.283 1.194.599 2.169 1.777 2.169 2.133 0 3.772-2.249 3.772-5.495 0-2.873-2.064-4.882-5.012-4.882-3.414 0-5.418 2.561-5.418 5.207 0 .992.371 1.938.833 2.455.081.092.094.184.069.288-.075.302-.246.992-.277 1.112-.033.128-.124.167-.258.105-1.181-.554-1.916-2.528-1.916-3.847 0-2.021 1.458-3.898 4.131-3.898 2.219 0 4.156 1.571 4.156 4.492 0 2.641-1.428 4.792-3.464 4.792-1.229 0-2.316-.94-2.096-2.054.24-.978.696-2.232.696-2.232s.161-.68.161-1.488c0-.702-.459-1.295-1.008-1.295-.812 0-1.386.864-1.386 1.953 0 .733.271 1.52.271 1.52l-1.011 4.243c-.453 1.886-1.786 4.358-2.921 5.492a11.943 11.943 0 003.55 1.189c6.627 0 12-5.373 12-12 0-6.628-5.373-12-12-12z"/>
   </svg>
 );
 
 const FigmaIcon: React.FC<{ className?: string }> = (props) => (
-  <svg {...props} xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+  <svg {...props} xmlns="https://i.postimg.cc/RFbDG4Ps/figma-6.png" width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
     <path d="M15 0c-4.418 0-8 3.582-8 8v8h8V8h-4v4h4v4h-4v4h4v-4h4V8c0-4.418-3.582-8-8-8zm-4 4h4v4h-4V4zm-4 4c0-2.206 1.794-4 4-4v4H7zm0 4h4v4H7v-4zm4 4v4c-2.206 0-4-1.794-4-4h4z"/>
   </svg>
 );
 
 const ThreadsIcon: React.FC<{ className?: string }> = (props) => (
-  <svg {...props} xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+  <svg {...props} xmlns="https://i.postimg.cc/0QFqjY1V/Threads-Logo.jpg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
     <path d="M12.012 1.62c-5.28 0-9.528 4.224-9.528 9.444s4.248 9.444 9.528 9.444c5.28 0 9.528-4.224 9.528-9.444S17.292 1.62 12.012 1.62zm-.108 14.82c-1.32 0-2.388-1.056-2.388-2.364 0-1.308 1.068-2.364 2.388-2.364s2.388 1.056 2.388 2.364c0 1.308-1.068 2.364-2.388 2.364zm-5.208-4.728c-1.02 0-1.848-.828-1.848-1.848s.828-1.848 1.848-1.848c1.02 0 1.848.828 1.848 1.848s-.828 1.848-1.848 1.848zm10.416 0c-1.02 0-1.848-.828-1.848-1.848s.828-1.848 1.848-1.848c1.02 0 1.848.828 1.848 1.848s-.828 1.848-1.848 1.848z"/>
   </svg>
 );
 
 const RedditIcon: React.FC<{ className?: string }> = (props) => (
-  <svg {...props} xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+  <svg {...props} xmlns="https://i.postimg.cc/nh2bBbtv/reddit-1.png" width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
     <path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-2.813 14.553c-.394.394-1.032.394-1.426 0-.394-.394-.394-1.032 0-1.426.394-.394 1.032-.394 1.426 0 .394.394.394 1.032 0 1.426zm3.321 2.227c-1.487 0-2.822-1.111-3.176-2.583h6.353c-.354 1.472-1.689 2.583-3.177 2.583zm-1.66-3.667c.394-.394 1.032-.394 1.426 0 .394.394.394 1.032 0 1.426-.394.394-1.032.394-1.426 0-.394-.394-.394-1.032 0-1.426zm7.265-1.56c0 1.016-.821 1.837-1.837 1.837s-1.837-.821-1.837-1.837c0-1.016.821-1.837 1.837-1.837s1.837.821 1.837 1.837zm-8.88-5.553c0-1.016.821-1.837 1.837-1.837s1.837.821 1.837 1.837c0 1.016-.821 1.837-1.837 1.837s-1.837-.821-1.837-1.837zm4.44-1.837c1.016 0 1.837.821 1.837 1.837s-.821 1.837-1.837 1.837-1.837-.821-1.837-1.837.821-1.837 1.837-1.837z"/>
   </svg>
 );
@@ -81,35 +81,35 @@ export const ICONS = {
 export const PRODUCTS: Product[] = [
   {
     id: 1,
-    imagePlaceholderColor: 'bg-gray-300',
+    imagePlaceholderColor: '/images/dashboard.gif',
     title: 'Dashboard HTML CSS JS Bootstrap 5 Template',
     originalPrice: 8,
     salePrice: 5,
   },
   {
     id: 2,
-    imagePlaceholderColor: 'bg-gray-300',
+    imagePlaceholderColor: '/images/log.png',
     title: 'YouTube UI Template - Figma- Dark pink theme',
     originalPrice: 5,
     salePrice: 5,
   },
   {
     id: 3,
-    imagePlaceholderColor: 'bg-gray-300',
+    imagePlaceholderColor: '/images/LOGO.png',
     title: '2 Canva Presentation Template A4 - Special Editable and Professional',
     originalPrice: 5,
     salePrice: 5,
   },
   {
     id: 4,
-    imagePlaceholderColor: 'bg-gray-300',
+    imagePlaceholderColor: '/images/imagen2.png',
     title: 'Task Tracker Digital To Do List Task Planner Google Sheets Template',
     originalPrice: 5,
     salePrice: 5,
   },
   {
     id: 5,
-    imagePlaceholderColor: 'bg-gray-300',
+    imagePlaceholderColor: '/images/asss.png',
     title: 'Notion Template for Personal Organization and Productivity',
     originalPrice: 8,
     salePrice: 5,
