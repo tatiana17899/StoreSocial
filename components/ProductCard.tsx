@@ -13,9 +13,13 @@ const ProductCard: React.FC<ProductCardProps> = ({ product, onProductClick }) =>
     // Using flex-col to structure content vertically.
     <div className="bg-white border-2 border-brand-dark rounded-3xl p-3 flex flex-col group transition-all duration-300 hover:shadow-lg hover:-translate-y-1">
       {/* Image placeholder with its own rounding, inset from the card's border */}
-      <div className={`w-full h-48 rounded-2xl ${product.imagePlaceholderColor}`}>
-        {/* In a real app, an <img /> tag would be here */}
-      </div>
+      <div className="w-full h-48 rounded-2xl overflow-hidden">
+  <img
+    src={product.imagePlaceholderColor}
+    alt={product.title}
+    className="w-full h-full object-cover"
+  />
+</div>
 
       {/* Title, centered, with vertical spacing. flex-grow pushes the footer down. */}
       <h3 className="font-medium text-brand-text text-center my-4 flex-grow">{product.title}</h3>
